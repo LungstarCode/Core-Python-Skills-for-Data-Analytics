@@ -14,3 +14,11 @@ cities[-2] # second last - Polokwane
 cities[1: -1] # exlude the first and last element
 print(cities[1: -1])
 print(cities[: -1]) # only exclude the last element
+
+# Concatination and replication
+cities + [ "Nelspruit", "Mathafin"]  # adding the list item to the existing cities list
+cities = cities + [ "Nelspruit", "Mathafin"] 
+print(cities)
+
+cities_x2 = cities * 2 # repliactes the list 
+print(cities_x2)
